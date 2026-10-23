@@ -1,6 +1,6 @@
 # ShardSwarm implementation plan
 
-> The original roadmap, written before the build and kept for reference. Current status is in [README.md](../README.md); results and conclusions are in [REPORT.md](REPORT.md).
+> The original roadmap, written before the build and kept for reference. Current status is in [README.md](../README.md); results and conclusions are in `docs/REPORT.md` (arrives in PR #11).
 
 P2P file distribution system (BitTorrent-lite) in Go with a custom tracker and a self-designed TCP peer wire protocol.
 Repository: https://github.com/sneharam543/shardswarm

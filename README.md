@@ -5,55 +5,60 @@ A peer-to-peer file distribution system inspired by BitTorrent. It is written in
 ## Project map
 
 ```
-shardswarm/
+shardswarm/                               (PR #n) = arrives with that PR; see Build progress
 ├── README.md               you are here: how to run everything
 ├── go.mod                  Go module (standard library only)
 ├── cmd/                    the three programs you run
-│   ├── mkmeta/             makes a file's .meta.json "ID card"            Sneha
-│   ├── tracker/            the tracker (peer phone book, HTTP)            Sneha
-│   └── peer/               the seeder/leecher program + 6-process test    Rishav
+│   ├── mkmeta/             makes a file's .meta.json "ID card"            Sneha    (PR #1)
+│   ├── tracker/            the tracker (peer phone book, HTTP)            Sneha    (PR #3)
+│   └── peer/               the seeder/leecher program + 6-process test    Rishav   (PR #7)
 ├── internal/               the building blocks the programs use
-│   ├── metainfo/           pieces + SHA-256 fingerprints                  Sneha
-│   ├── tracker/            tracker server + client                        Sneha
-│   ├── wire/               the peer-to-peer message format (TCP)          Aditya
-│   ├── peer/               connections: handshake, strikes, timeouts      Rishav
-│   ├── piece/              engine.go + store.go: download engine          Rishav
-│   │                       choke.go: tit-for-tat choking                  Swayam
-│   ├── ratelimit/          upload speed limiter (token bucket)            Swayam
-│   └── metrics/            CSV measurements                               Swayam
-├── experiments/            run.py, analyze.py, results/, plots/           Swayam
-├── docs/                   REPORT, VIVA, specs, PLAN, KNOWN_ISSUES, proposal PDF
-├── obsidian/               visual notes + canvases (open the repo as an Obsidian vault)
-├── scripts/demo.ps1        one-command local demo
-├── deploy/, docker-compose.yml, .dockerignore   optional Docker setup
-└── .gitignore
+│   ├── metainfo/           pieces + SHA-256 fingerprints                  Sneha    (PR #1)
+│   ├── tracker/            tracker server + client                        Sneha    (PR #3)
+│   ├── wire/               the peer-to-peer message format (TCP)          Aditya   (PR #4)
+│   ├── peer/               connections: handshake, strikes, timeouts      Rishav   (PR #5)
+│   ├── piece/              engine.go + store.go: download engine          Rishav   (PR #6)
+│   │                       choke.go: tit-for-tat choking                  Swayam   (PR #6)
+│   ├── ratelimit/          upload speed limiter (token bucket)            Swayam   (PR #2)
+│   └── metrics/            CSV measurements                               Swayam   (PR #2)
+├── experiments/            run.py, analyze.py, results/, plots/           Swayam   (PR #8)
+├── docs/                   PLAN, proposal PDF; METAINFO (#1), TRACKER_API (#3),
+│                           PROTOCOL (#4), REPORT + KNOWN_ISSUES (#11), VIVA (#9)
+├── obsidian/               visual notes + canvases (Obsidian vault)       Rishav   (PR #10)
+├── scripts/demo.ps1        one-command local demo                         Rishav   (PR #10)
+├── deploy/, docker-compose.yml, .dockerignore   optional Docker            Sneha    (PR #12)
+└── .gitignore, .gitattributes
 ```
 
-**Start here, by person.** Read `obsidian/Start Here.md` first, then:
+**Start here, by person.** Read `obsidian/Start Here.md` first (PR #10), then:
 - **Sneha:** `internal/metainfo`, `internal/tracker`, `docs/METAINFO.md`, `docs/TRACKER_API.md`.
 - **Aditya:** `internal/wire`, `docs/PROTOCOL.md`.
 - **Rishav:** `internal/peer`, `internal/piece/engine.go` and `store.go`, `cmd/peer`.
 - **Swayam:** `internal/piece/choke.go`, `internal/ratelimit`, `internal/metrics`, `experiments/`.
 
-Everyone: `docs/REPORT.md` for the full story, and `docs/VIVA.md` for the questions on your area.
+Everyone: `docs/REPORT.md` for the full story (PR #11), and `docs/VIVA.md` for the questions on your area (PR #9).
 
-## Status
+## Build progress
 
-| Milestone | State |
-|-----------|-------|
-| P1 Metainfo + `mkmeta` | Done |
-| P2 Tracker | Done |
-| P3 Wire protocol | Done (spec: docs/PROTOCOL.md) |
-| P4 Peer connections | Done |
-| P5 Download engine | Done |
-| P6 Seeder / leecher peer | Done |
-| P7 Choking (tit-for-tat, free-rider) | Done |
-| P8 Upload rate limiter | Done |
-| P9 Metrics CSV + Docker Compose | Done; Docker is optional and not yet run ([docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md) item 1) |
-| P10 Experiments (65 runs, results in `experiments/results/summary.md`) | Done |
-| P11 Report and viva material | Done: [docs/REPORT.md](docs/REPORT.md), [docs/VIVA.md](docs/VIVA.md) |
+The project is built in PRs, one area per teammate, in the order below; each PR only depends on PRs above it. **Each PR changes its own row to ✅ Merged.**
 
-Known issues, open items and limitations: [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md).
+| PR | Owner | Adds | Status |
+|---|---|---|---|
+| Scaffold | Sneha | module, this README, proposal, roadmap, ignore rules | ✅ Merged |
+| #1 | Sneha | metainfo format, per-piece SHA-256, `mkmeta` | ⏳ Planned |
+| #2 | Swayam | upload rate limiter, CSV metrics | ⏳ Planned |
+| #3 | Sneha | tracker server and client | ⏳ Planned |
+| #4 | Aditya | wire protocol and its specification | ⏳ Planned |
+| #5 | Rishav | peer connections (handshake, strikes, timeouts) | ⏳ Planned |
+| #6 | Rishav + Swayam | download engine and store, choking (joint PR) | ⏳ Planned |
+| #7 | Rishav | the `peer` program and the 6-process test | ⏳ Planned |
+| #8 | Swayam | experiments, results and plots | ⏳ Planned |
+| #11 | Sneha | technical report, known issues | ⏳ Planned |
+| #9 | Aditya | viva preparation | ⏳ Planned |
+| #10 | Rishav | demo script, Obsidian notes | ⏳ Planned |
+| #12 | Sneha | Docker setup (optional) | ⏳ Planned |
+
+Known issues, open items and limitations: `docs/KNOWN_ISSUES.md` (arrives in PR #11).
 
 ## Browse in Obsidian
 
@@ -113,11 +118,11 @@ Open one terminal per program. The steps are in **Usage** below. Give each peer 
 
 - Copy the same `.meta.json` file to every machine. Only the seeder needs the real file.
 - Allow TCP 8080 (tracker) and 6881 (peers) through Windows Firewall on those machines.
-- Use this only on a trusted network. There is no encryption or authentication (see [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md)).
+- Use this only on a trusted network. There is no encryption or authentication (see `docs/KNOWN_ISSUES.md`, PR #11).
 
 ### D. Docker Compose (optional)
 
-Runs every peer in its own container on one PC. Nothing else depends on it; the demo and the experiments use local processes. It needs Docker running; see [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md) item 1.
+Runs every peer in its own container on one PC. Nothing else depends on it; the demo and the experiments use local processes. It needs Docker running; see `docs/KNOWN_ISSUES.md` item 1 (PR #11).
 
 ```powershell
 docker compose up --build --scale leecher=5                        # tracker + 1 seeder + 5 leechers
