@@ -1,0 +1,9 @@
+# Ignored: build output, partial downloads, Docker data, local tool state, and per-run experiment logs. All regenerable or personal.
+*.exe
+*.part
+graphify-out/
+swarm-data/
+bin/
+.obsidian/
+experiments/results/**/*.log
+demo/

@@ -1,0 +1,7 @@
+# Keeps the Docker build context small: the image needs only go.mod, cmd/ and internal/.
+.git
+graphify-out
+swarm-data
+bin
+*.exe
+*.part

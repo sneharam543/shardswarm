@@ -1,0 +1,4 @@
+# Keep LF line endings on every platform (gofmt expects LF); PDFs and images are binary.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
