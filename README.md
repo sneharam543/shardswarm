@@ -45,7 +45,7 @@ The project is built in PRs, one area per teammate, in the order below; each PR 
 | PR | Owner | Adds | Status |
 |---|---|---|---|
 | Scaffold | Sneha | module, this README, proposal, roadmap, ignore rules | ✅ Merged |
-| #1 | Sneha | metainfo format, per-piece SHA-256, `mkmeta` | ⏳ Planned |
+| #1 | Sneha | metainfo format, per-piece SHA-256, `mkmeta` | ✅ Merged |
 | #2 | Swayam | upload rate limiter, CSV metrics | ⏳ Planned |
 | #3 | Sneha | tracker server and client | ⏳ Planned |
 | #4 | Aditya | wire protocol and its specification | ⏳ Planned |
