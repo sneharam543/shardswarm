@@ -48,8 +48,8 @@ The project is built in PRs, one area per teammate, in the order below; each PR 
 | #1 | Sneha | metainfo format, per-piece SHA-256, `mkmeta` | ✅ Merged |
 | #2 | Swayam | upload rate limiter, CSV metrics | ✅ Merged |
 | #3 | Sneha | tracker server and client | ✅ Merged |
-| #4 | Aditya | wire protocol and its specification | ⏳ Planned |
-| #5 | Rishav | peer connections (handshake, strikes, timeouts) | ⏳ Planned |
+| #4 | Aditya | wire protocol and its specification | ✅ Merged |
+| #5 | Rishav | peer connections (handshake, strikes, timeouts) | ✅ Merged |
 | #6 | Rishav + Swayam | download engine and store, choking (joint PR) | ⏳ Planned |
 | #7 | Rishav | the `peer` program and the 6-process test | ⏳ Planned |
 | #8 | Swayam | experiments, results and plots | ⏳ Planned |
