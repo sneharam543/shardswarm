@@ -50,9 +50,9 @@ The project is built in PRs, one area per teammate, in the order below; each PR 
 | #3 | Sneha | tracker server and client | ✅ Merged |
 | #4 | Aditya | wire protocol and its specification | ✅ Merged |
 | #5 | Rishav | peer connections (handshake, strikes, timeouts) | ✅ Merged |
-| #6 | Rishav + Swayam | download engine and store, choking (joint PR) | ⏳ Planned |
-| #7 | Rishav | the `peer` program and the 6-process test | ⏳ Planned |
-| #8 | Swayam | experiments, results and plots | ⏳ Planned |
+| #6 | Rishav + Swayam | download engine and store, choking (joint PR) | ✅ Merged |
+| #7 | Rishav | the `peer` program and the 6-process test | ✅ Merged |
+| #8 | Swayam | experiments, results and plots | ✅ Merged |
 | #11 | Sneha | technical report, known issues | ⏳ Planned |
 | #9 | Aditya | viva preparation | ⏳ Planned |
 | #10 | Rishav | demo script, Obsidian notes | ⏳ Planned |
