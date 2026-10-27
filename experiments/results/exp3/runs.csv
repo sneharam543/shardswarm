@@ -1,0 +1,11 @@
+run_id,experiment,repeat,swarm_size,seeders,leechers,strategy,choking,freerider,size_bytes,up_limit_bps,t0_ms,distribution_ms,completed,timed_out
+exp3-n8-s1-rarest-tft-r1,exp3,1,8,1,7,rarest,tft,True,16777216,1048576,1792769919492,20626,7,False
+exp3-n8-s1-rarest-tft-r2,exp3,2,8,1,7,rarest,tft,True,16777216,1048576,1792769941742,22323,7,False
+exp3-n8-s1-rarest-tft-r3,exp3,3,8,1,7,rarest,tft,True,16777216,1048576,1792769965628,20426,7,False
+exp3-n8-s1-rarest-tft-r4,exp3,4,8,1,7,rarest,tft,True,16777216,1048576,1792769987607,21728,7,False
+exp3-n8-s1-rarest-tft-r5,exp3,5,8,1,7,rarest,tft,True,16777216,1048576,1792770010882,20689,7,False
+exp3-n8-s1-rarest-off-r1,exp3,1,8,1,7,rarest,off,True,16777216,1048576,1792770033045,27574,7,False
+exp3-n8-s1-rarest-off-r2,exp3,2,8,1,7,rarest,off,True,16777216,1048576,1792770061980,31074,7,False
+exp3-n8-s1-rarest-off-r3,exp3,3,8,1,7,rarest,off,True,16777216,1048576,1792770094551,28325,7,False
+exp3-n8-s1-rarest-off-r4,exp3,4,8,1,7,rarest,off,True,16777216,1048576,1792770124346,28840,7,False
+exp3-n8-s1-rarest-off-r5,exp3,5,8,1,7,rarest,off,True,16777216,1048576,1792770154543,28339,7,False

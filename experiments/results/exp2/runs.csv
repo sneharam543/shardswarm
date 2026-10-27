@@ -1,0 +1,16 @@
+run_id,experiment,repeat,swarm_size,seeders,leechers,strategy,choking,freerider,size_bytes,up_limit_bps,t0_ms,distribution_ms,completed,timed_out
+exp2-n8-s1-rarest-tft-r1,exp2,1,8,1,7,rarest,tft,False,16777216,1048576,1792769354879,22295,7,False
+exp2-n8-s1-rarest-tft-r2,exp2,2,8,1,7,rarest,tft,False,16777216,1048576,1792769378684,20825,7,False
+exp2-n8-s1-rarest-tft-r3,exp2,3,8,1,7,rarest,tft,False,16777216,1048576,1792769401007,21171,7,False
+exp2-n8-s1-rarest-tft-r4,exp2,4,8,1,7,rarest,tft,False,16777216,1048576,1792769424040,20987,7,False
+exp2-n8-s1-rarest-tft-r5,exp2,5,8,1,7,rarest,tft,False,16777216,1048576,1792769446519,20749,7,False
+exp2-n8-s1-random-tft-r1,exp2,1,8,1,7,random,tft,False,16777216,1048576,1792769468673,22846,7,False
+exp2-n8-s1-random-tft-r2,exp2,2,8,1,7,random,tft,False,16777216,1048576,1792769492999,21897,7,False
+exp2-n8-s1-random-tft-r3,exp2,3,8,1,7,random,tft,False,16777216,1048576,1792769516458,22039,7,False
+exp2-n8-s1-random-tft-r4,exp2,4,8,1,7,random,tft,False,16777216,1048576,1792769540063,22228,7,False
+exp2-n8-s1-random-tft-r5,exp2,5,8,1,7,random,tft,False,16777216,1048576,1792769563706,20990,7,False
+exp2-n8-s1-sequential-tft-r1,exp2,1,8,1,7,sequential,tft,False,16777216,1048576,1792769586211,65060,7,False
+exp2-n8-s1-sequential-tft-r2,exp2,2,8,1,7,sequential,tft,False,16777216,1048576,1792769652881,65095,7,False
+exp2-n8-s1-sequential-tft-r3,exp2,3,8,1,7,sequential,tft,False,16777216,1048576,1792769719516,65135,7,False
+exp2-n8-s1-sequential-tft-r4,exp2,4,8,1,7,sequential,tft,False,16777216,1048576,1792769786192,65379,7,False
+exp2-n8-s1-sequential-tft-r5,exp2,5,8,1,7,sequential,tft,False,16777216,1048576,1792769852998,64882,7,False

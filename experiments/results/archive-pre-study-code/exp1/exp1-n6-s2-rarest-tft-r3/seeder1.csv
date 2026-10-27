@@ -1,0 +1,14 @@
+run_id,timestamp_ms,peer_id,event,piece_index,piece_bytes,bytes_down,bytes_up,down_bps,up_bps,pieces_have,pieces_total,complete,total_time_ms,strategy,choking,seeders,swarm_size,bw_limit_bps,free_rider
+exp1-n6-s2-rarest-tft-r3,1792762693170,f4ac3f09,rate,,,0,819200,0,819200,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762694170,f4ac3f09,rate,,,0,1851392,0,1032192,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762695170,f4ac3f09,rate,,,0,2916352,0,1064960,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762696170,f4ac3f09,rate,,,0,3948544,0,1032192,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762697170,f4ac3f09,rate,,,0,4980736,0,1032192,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762698170,f4ac3f09,rate,,,0,6029312,0,1048576,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762699170,f4ac3f09,rate,,,0,7077888,0,1048576,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762700170,f4ac3f09,rate,,,0,8126464,0,1048576,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762701170,f4ac3f09,rate,,,0,9175040,0,1048576,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762702170,f4ac3f09,rate,,,0,10223616,0,1048576,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762703170,f4ac3f09,rate,,,0,11272192,0,1048576,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762704170,f4ac3f09,rate,,,0,12337152,0,1064960,64,64,true,,rarest,tft,2,6,1048576,false
+exp1-n6-s2-rarest-tft-r3,1792762705170,f4ac3f09,rate,,,0,12845056,0,507904,64,64,true,,rarest,tft,2,6,1048576,false
