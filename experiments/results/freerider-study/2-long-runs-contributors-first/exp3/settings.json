@@ -1,0 +1,8 @@
+{
+  "repeats": 5,
+  "size_mb": 64,
+  "up_limit_bps": 1048576,
+  "tracker_interval": "2s",
+  "piece_length": 262144,
+  "platform": "win32"
+}

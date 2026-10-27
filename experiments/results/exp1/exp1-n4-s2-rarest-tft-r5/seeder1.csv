@@ -1,0 +1,10 @@
+run_id,timestamp_ms,peer_id,event,piece_index,piece_bytes,bytes_down,bytes_up,down_bps,up_bps,pieces_have,pieces_total,complete,total_time_ms,strategy,choking,seeders,swarm_size,bw_limit_bps,free_rider
+exp1-n4-s2-rarest-tft-r5,1792769117517,38d57cd6,rate,,,0,671744,0,671744,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769118517,38d57cd6,rate,,,0,1720320,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769119517,38d57cd6,rate,,,0,2768896,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769120517,38d57cd6,rate,,,0,3817472,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769121517,38d57cd6,rate,,,0,4849664,0,1032192,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769122517,38d57cd6,rate,,,0,5898240,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769123517,38d57cd6,rate,,,0,6946816,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769124517,38d57cd6,rate,,,0,7995392,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
+exp1-n4-s2-rarest-tft-r5,1792769125517,38d57cd6,rate,,,0,9043968,0,1048576,64,64,true,,rarest,tft,2,4,1048576,false
