@@ -49,7 +49,7 @@ Each PR changes its own row to ✅ Merged.
 | #6 | Rishav + Swayam | download engine, store, choking | ✅ Merged |
 | #7 | Rishav | the `peer` program and the 6-process test | ✅ Merged |
 | #8 | Swayam | experiments, results and plots | ✅ Merged |
-| #9 | Sneha | report, known issues | ⏳ Planned |
+| #9 | Sneha | report, known issues | ✅ Merged |
 | #10 | Sneha | Docker setup (optional) | ⏳ Planned |
 
 ## Requirements
